@@ -1,0 +1,13 @@
+# Mini Challenge 2
+
+## Full CRUDS support
+
+### Acceptnace Criteria
+1. Make it so users can create new posts.
+1.1. For this first phase, all fields on the model _must_ be exposed.
+2. Make it so that users can view a list of all posts.
+3. Make it so that users can view a detail page for a given post (accessible through the list view template).
+4. Make sure your site is navigable (everything is reachable via links).
+
+## Note
+You will need to create any and all necessary views, urlpatterns and set any required configurations to make the above happen. Please review the code for our last project as this challenge is *open book* just like all previous ones
