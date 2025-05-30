@@ -5,6 +5,7 @@
 {% block content %}
 <h1> {{post.title}} </h1>
 <h3> {{post.subtitle}} </h3>
+<small> Created by {{ post.author.first_name }} {{ post.author.last_name }} on {{ post.created_on }}</small>
 <p> {{post.body}} </p>
 
 {% if user.is_authenticated %}
@@ -14,3 +15,4 @@
     {% endif %}
 {% endif %}
 
+{% endblock content %}
